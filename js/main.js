@@ -22,7 +22,9 @@ const container = new Vue({
       },
     ],
   },
-  nextPic : function nextPic(){
-    
-  },
+  methods: {
+    next: function(){
+    this.index += 1 ,
+   },
+ },
 });

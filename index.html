@@ -11,7 +11,7 @@
     <div class="container">
       <i class="fas fa-chevron-left"></i>
       <img class="picture" v-bind:src="images[index].img" alt="">
-      <i class="fas fa-chevron-right"></i>
+      <i @click="nextPic" class="fas fa-chevron-right"></i>
       <div class="dots">
       </div>
     </div>

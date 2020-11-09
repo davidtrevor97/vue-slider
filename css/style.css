@@ -28,3 +28,7 @@ i.fa-chevron-right{
   left: 100%;
   transform: translateX(-100%);
 }
+i.fa-chevron-left:hover,
+i.fa-chevron-right:hover{
+  cursor:pointer;
+}
