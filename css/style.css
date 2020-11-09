@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #ffffe0;
+}
+.container{
+  position: relative;
+  display: flex;
+}
+.container img{
+  border: 2px solid black;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+i.fa-chevron-left,
+i.fa-chevron-right{
+  position: absolute;
+  top: 50%;
+  color: red;
+  padding: 0 20px ;
+  font-size: 25px;
+}
+i.fa-chevron-right{
+  left: 100%;
+  transform: translateX(-100%);
+}

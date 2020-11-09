@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>VUE SLIDER</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <i class="fas fa-chevron-left"></i>
+      <img class="picture" v-bind:src="images[index].img" alt="">
+      <i class="fas fa-chevron-right"></i>
+      <div class="dots">
+      </div>
+    </div>
+
+    <!--VUE.JS production version, optimized for size and speed -->
+   <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+   <!-- MAIN.JS LINK -->
+   <script type="text/javascript" src="./js/main.js"></script>
+  </body>
+</html>
